@@ -20,6 +20,7 @@ Following a simple example on how to run the automl function:
 >> AUC = automl(df) # use explicit=True to get the name of the used algorithm.
 ```
 
+For further information please refer to the PDF report.
 
 License
 ----
