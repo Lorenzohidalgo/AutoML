@@ -11,14 +11,12 @@ import os
 #
 
 # Path to model
-model_path = 'C:/Users/lorenzo.hidalgo.gad1/CloudDrive/myfiles/' \
-             '4. Datathlon MS/0. CODE/Final Code (Lorenzo)' \
-             '/model_selector.sav'
+model_path = '/model_selector.sav'
 
 # Path and configurations for the logger function.
 logg_it_output_path = os.path.abspath(os.getcwd())
 logg_it_output_filename = '/logger.txt'
-log_printing = True
+log_printing = False
 
 # Path and name of the generated trained results file.
 result_saver_output_path = os.path.abspath(os.getcwd())
