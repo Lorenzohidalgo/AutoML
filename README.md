@@ -24,4 +24,4 @@ Following a simple example on how to run the automl function:
 License
 ----
 
-GNU GLP v3.0
+GNU General Public License v3.0
