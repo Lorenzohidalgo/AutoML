@@ -1,0 +1,12 @@
+category-encoders==2.1.0
+featuretools==0.13.1
+imbalanced-learn==0.6.1
+imblearn==0.0
+numpy==1.17.4
+numpydoc==0.8.0
+pandas==0.23.0
+parsedatetime==2.5
+scikit-image==0.13.1
+scikit-learn==0.22
+systemtools==1.0.2
+systools==0.0.92
