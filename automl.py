@@ -261,6 +261,10 @@ def automl(df, explicit=automl_explicit):
     global resultsDict
     log_it('Module: automl', 'Starting.')
     evaluate(df)
+    log_it('Module: automl', 'Results: ' +
+           str(max(resultsDict, key=resultsDict.get)) +
+           ' - ' +
+           str(resultsDict[max(resultsDict, key=resultsDict.get)]))
     if explicit:
         return max(resultsDict, key=resultsDict.get), \
             resultsDict[max(resultsDict, key=resultsDict.get)]
