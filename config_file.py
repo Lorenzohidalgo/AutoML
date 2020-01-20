@@ -11,7 +11,7 @@ import os
 #
 
 # Path to model
-model_path = '/model_selector.sav'
+model_path = '/model_selector2.sav'
 
 # Path and configurations for the logger function.
 logg_it_output_path = os.path.abspath(os.getcwd())
