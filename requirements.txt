@@ -2,7 +2,7 @@ category-encoders==2.1.0
 featuretools==0.13.1
 imbalanced-learn==0.6.1
 imblearn==0.0
-numpy==1.17.4
+numpy==1.22.0
 numpydoc==0.8.0
 pandas==0.23.0
 parsedatetime==2.5
